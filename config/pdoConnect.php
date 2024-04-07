@@ -21,8 +21,8 @@
 //	}
 
 //	Connect to MSSQL server with Shaiya credentials using PDO
-	$sqlUser  = 'Ernoweb@';		//	YOUR SHAIYA ACCOUNT NAME
-	$sqlPass  = '9ueRfg8VD*2ce^sWtmMimcVG&d6&SfPpgz^GBr4UjazoW';	//	YOUR SHAIYA ACCOUNT PASSWORD
+	$sqlUser  = getenv('DB_USER');		//	YOUR SHAIYA ACCOUNT NAME
+	$sqlPass  = getenv('DB_PASSWORD');	//	YOUR SHAIYA ACCOUNT PASSWORD
 	$database = 'PS_UserData';
 
 	try {

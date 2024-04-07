@@ -1,6 +1,6 @@
 <?
 	try {
-		$conn  = new PDO('sqlsrv:Server=127.0.0.1;Database=PS_UserData', 'Ernoweb@', '9ueRfg8VD*2ce^sWtmMimcVG&d6&SfPpgz^GBr4UjazoW');
+		$conn  = new PDO('sqlsrv:Server=127.0.0.1;Database=PS_UserData', 'sada@', 'asfasfas');
 	}
 	catch (PDOException $e){
     	die($e->getMessage());
