@@ -1,0 +1,1 @@
+<?php include_once("$PageUrl/pages/$subpage/content.php") ?>
