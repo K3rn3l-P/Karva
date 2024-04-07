@@ -1,6 +1,5 @@
 <?php
-// Include il file di configurazione per stabilire la connessione al database
-include_once('../config/config.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . "/config/config.php"); // Include il file config.php per la connessione al database
 ?>
 
 
