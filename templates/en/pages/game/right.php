@@ -1,1 +1,0 @@
-<?php include_once("$PageUrl/pages/$subpage/right.php") ?>

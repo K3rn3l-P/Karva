@@ -1,1 +1,0 @@
-<h2>Please log in to see the details.</h2>
