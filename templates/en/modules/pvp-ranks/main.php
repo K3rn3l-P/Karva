@@ -1,3 +1,8 @@
+<?php
+include_once($_SERVER['DOCUMENT_ROOT'] . "/config/config.php"); // Include il file config.php per la connessione al database
+?>
+
+
 <section class="sidebox_topvoters topvoter sidebox">
 	<h4 class="sidebox_title border_box">
 		<i>PvP RANKING</i>
