@@ -1,0 +1,324 @@
+
+#sidebox_status .sidebox_body {
+    padding: 16px 25px;
+}
+#sidebox_status .sidebox_body .loading_ajax {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+}
+#sidebox_status .sidebox_body .realm_holder {
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px;
+    display: block;
+}
+#sidebox_status .sidebox_body .realm_holder.lastrow {
+    margin: 0;
+}
+#sidebox_status .sidebox_body .realm_holder .realm_row {
+    width: 100%;
+    height: auto;
+    margin: 10px 0 5px;
+    padding: 0 16px;
+    display: block;
+}
+#sidebox_status .sidebox_body .realm_holder .realm_row>span {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .4);
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+    letter-spacing: .5px;
+}
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-1 .r_name {
+    max-width: 50%;
+    color: #86837d;
+    text-transform: uppercase;
+}
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-1 .r_name i {
+    color: #e0ddd6;
+    font-style: inherit;
+    font-weight: 700;
+}
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-1 img {
+    vertical-align: top;
+}
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-1 .r_status {
+   
+    float: right;
+}
+#sidebox_status .sidebox_body .realm_holder.offline .realm_row.row-1 .r_status {
+    color: #bb1e1e;
+}
+#sidebox_status .sidebox_body .realm_holder.online .realm_row.row-1 .r_status {
+    color: #52bb1e;
+}
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-2 {
+    padding: 0 10px;
+}
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-3 {
+    margin: 0;
+}
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-3 .r_desc {
+    color: #64625d;
+}
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-3 .r_desc i {
+    font-style: inherit;
+    font-weight: 700;
+}
+#sidebox_status .sidebox_body .realm_holder.vanilla .realm_row.row-3 .r_desc i {
+    color: #a49f93;
+}
+#sidebox_status .sidebox_body .realm_holder.tbc .realm_row.row-3 .r_desc i {
+    color: #37b227;
+}
+#sidebox_status .sidebox_body .realm_holder.wotlk .realm_row.row-3 .r_desc i {
+    color: #2776b2;
+}
+#sidebox_status .sidebox_body .realm_holder.cata .realm_row.row-3 .r_desc i {
+    color: #b25b27;
+}
+#sidebox_status .sidebox_body .realm_holder.mop .realm_row.row-3 .r_desc i {
+    color: #bcaf8e;
+}
+#sidebox_status .sidebox_body .realm_holder.wod .realm_row.row-3 .r_desc i {
+    color: #fff;
+}
+#sidebox_status .sidebox_body .realm_holder.legion .realm_row.row-3 .r_desc i {
+    color: #fff;
+}
+#sidebox_status .sidebox_body .realm_holder.bfa .realm_row.row-3 .r_desc i {
+    color: #fff;
+}
+#sidebox_status .sidebox_body .realmlist {
+    max-width: 90%;
+    color: #9b9891;
+    margin: 20px auto 0;
+    font-size: 10px;
+    text-align: center;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .4);
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+    letter-spacing: .5px;
+}
+#sidebox_status .sidebox_body .realmlist i {
+    color: #b68a2a;
+    font-style: inherit;
+    font-weight: 700;
+}
+#sidebox_topvoters .sidebox_body {
+    overflow: visible;
+}
+#sidebox_topvoters .sidebox_body #topvoter .topvoter_desc {
+    top: -48px;
+    right: 0;
+    color: #605d57;
+    position: absolute;
+    font-size: 9px;
+    font-weight: 700;
+    font-family: ptsanscaption;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .4);
+    text-transform: uppercase;
+}
+#sidebox_topvoters .sidebox_body #topvoter .topvoter_row {
+    width: 100%;
+    height: 34px;
+    display: block;
+    background-color: transparent;
+    background-image: url(../images/misc/line-sep.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+#sidebox_topvoters .sidebox_body #topvoter .topvoter_row .topvoter_col {
+    width: auto;
+    height: 100%;
+    display: inline-block;
+    line-height: 29px;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .4);
+    letter-spacing: .5px;
+}
+#sidebox_topvoters .sidebox_body #topvoter .topvoter_row .topvoter_col.col_rank {
+    width: 10%;
+    color: #a19e98;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+}
+#sidebox_topvoters .sidebox_body #topvoter .topvoter_row .topvoter_col.col_name a {
+    color: #7b7872;
+    font-size: 10px;
+    font-family: ptsanscaptionbold;
+}
+#sidebox_topvoters .sidebox_body #topvoter .topvoter_row .topvoter_col.col_name a:hover {
+    color: #a19e98;
+}
+#sidebox_topvoters .sidebox_body #topvoter .topvoter_row .topvoter_col.col_vote {
+    float: right;
+    color: #83817c;
+    font-size: 9px;
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+}
+#sidebox_topvoters .sidebox_body #topvoter .topvoter_row .topvoter_col.col_vote i {
+    color: #b3b0aa;
+    font-size: 10px;
+    font-style: inherit;
+    font-weight: 700;
+}
+
+#sidebox_topvoters .sidebox_body #topvoter .topvoter_info {
+    color: #64625d;
+    margin: 11px 0 0;
+    font-size: 10px;
+    font-weight: 700;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .4);
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+}
+#sidebox_topvoters .sidebox_body #topvoter .topvoter_info a {
+    font-weight: 700;
+}
+#sidebox_topvoters .sidebox_body #topvoter .topvoter_noresult {
+    color: #64625d;
+    font-size: 10px;
+    font-weight: 700;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .4);
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+}
+
+
+
+
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-2 .r_bar {
+    width: 90%;
+	margin: 0 auto;
+    height: 23px;
+    padding: 3px;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, .1), inset 0 0 0 2px rgba(0, 0, 0, .16), inset 0 0 10px 0 rgba(0, 0, 0, .4);
+    -moz-box-shadow: 0 1px 0 0 rgba(255, 255, 255, .1), inset 0 0 0 2px rgba(0, 0, 0, .16), inset 0 0 10px 0 rgba(0, 0, 0, .4);
+    -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, .1), inset 0 0 0 2px rgba(0, 0, 0, .16), inset 0 0 10px 0 rgba(0, 0, 0, .4);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, .4) 0%, rgba(0, 0, 0, 0) 90%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, .4) 0%, rgba(0, 0, 0, 0) 90%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .4) 0%, rgba(0, 0, 0, 0) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66000000', endColorstr='#00000000', GradientType=0)
+}
+
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-2 .r_bar .r_bar-inner {
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-2 .r_bar .r_bar-inner .r_bar-fill {
+    min-width: 10%;
+    max-width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 7;
+    position: absolute;
+    background-color: transparent;
+    background-image: url(https://i.imgur.com/7pseQht.jpg);
+    background-repeat: repeat-x;
+}
+
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-2 .r_bar .r_bar-inner .r_bar-fill.bar-h {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    background-position: bottom left
+}
+
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-2 .r_bar .r_bar-inner .r_bar-fill.bar-a {
+    right: 0;
+    border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    background-position: top left
+}
+
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-2 .r_bar .r_bar-inner .r_bar-fill.index {
+    z-index: 8
+}
+
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-2 .r_bar .r_bar-inner .r_bar-fill.index:after {
+    width: 3px;
+    height: 100%;
+    top: 0;
+    content: "";
+    position: absolute;
+    background-color: #0b0b0b
+}
+
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-2 .r_bar .r_bar-inner .r_bar-fill.bar-h.index:after {
+    right: -1.5px
+}
+
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-2 .r_bar .r_bar-inner .r_bar-fill.bar-a.index:after {
+    left: -1.5px
+}
+
+#sidebox_status .sidebox_body .realm_holder .realm_row.row-2 .r_bar .r_bar-inner .r_bar-fill span {
+    color: #d3c8c1;
+    display: block;
+    padding: 0 3px;
+    font-size: 8px;
+    line-height: 17px;
+    font-weight: 700;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-shadow: 1px 1px 0 #090909, -1px -1px 0 #090909, 0 0 4px #000;
+    letter-spacing: .5px;
+}
+
+.sidebox .sidebox_title {
+    width: 100%;
+    height: auto;
+    min-height: 35px;
+    color: #84817b;
+    padding: 0 16px 19px;
+    font-size: 14px;
+	text-align: center;
+    font-family: ptsanscaptionbold;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .4);
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    background-color: transparent;
+    background-image: url(../images/sidebox_head.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.sidebox .sidebox_title i {
+    color: #c4c1ba;
+    font-style: inherit;
+    font-family: ptsanscaptionbold;
+}
+
+
+#boss-timers .topvoter_row {
+    width: 100%;
+    height: 34px;
+    display: block;
+    background-color: transparent;
+    background-image: url(../../images/misc/line-sep.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+#boss-timers .topvoter_row .topvoter_col {
+    width: auto;
+    height: 100%;
+    display: inline-block;
+    line-height: 29px;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .4);
+    letter-spacing: .5px;
+}
+#boss-timers .topvoter_row .topvoter_col.col_vote {
+    float: right;
+    color: #83817c;
+    font-size: 10px;
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+}
